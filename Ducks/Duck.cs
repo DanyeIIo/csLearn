@@ -24,5 +24,13 @@ namespace Ducks
         {
             flyBehavior.Fly();
         }
+        public void SetFlyBehavior(IFlyBehavior fly)
+        {
+            flyBehavior = fly;
+        }
+        public void SetQuackBehavior(IQuackBehavior quack)
+        {
+            quackBehavior = quack;
+        }
     }
 }
