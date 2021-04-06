@@ -15,6 +15,7 @@ namespace CafeForDevs.Server
             httpListener.Prefixes.Add(baseUrl.ToString());
 
             var handlers = new List<IHandler>();
+
             handlers.Add(new MenuHandler());
             handlers.Add(new OrderHandler());
 

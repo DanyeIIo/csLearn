@@ -35,6 +35,9 @@ namespace Models.Showcase
         }
         public DateTime CreatedAt { get; } // IShowcase
         public DateTime RemovedAt { get; } // IShowcase
+
+        public List<IItem> Items => throw new NotImplementedException();
+
         //public List<IItem> Items { get => items; } // IShowcase
 
         //private List<IItem> items = new List<IItem>(); // This
